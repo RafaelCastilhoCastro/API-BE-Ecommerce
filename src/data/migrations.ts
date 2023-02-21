@@ -71,4 +71,4 @@ connection.schema
 const closeConnection = () => { connection.destroy() }
 
 createTables()
-    .finally(closeConnection)
+    // .finally(closeConnection)
