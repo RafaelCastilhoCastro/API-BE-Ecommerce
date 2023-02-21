@@ -6,15 +6,6 @@
 
 :satellite: [Link do Deploy no Render](https://lab-ecommerce-backend.onrender.com)
 
-### Dependências utilizadas:
-* Knex
-* Express
-* ts-node-dev
-* Cors
-* Typescript
-* dotenv
-* MySQL
-
 ### Como usar
 - Clone o repositório
 - Rode npm i (ou equivalente) para instalar as dependências
@@ -27,6 +18,14 @@
 - Rode npm run migrations para criar as tabelas no banco de dados (MySQL).
 - Teste os endpoints através do arquivo request.rest, Postman ou equivalente.
 
+### Dependências utilizadas:
+* Knex
+* Express
+* ts-node-dev
+* Cors
+* Typescript
+* dotenv
+* MySQL
 
 ### Endpoints disponiveis:
 - Buscar todos os usuários cadastrados (com seus históricos de compras)
@@ -38,4 +37,4 @@
 
 ---
 
-💻 **Desenvolvedor:** Rafael Castro
+💻 Desenvolvedor: **Rafael Castro**.
