@@ -15,6 +15,19 @@
 * dotenv
 * MySQL
 
+### Como usar
+- Clone o repositório
+- Rode npm i (ou equivalente) para instalar as dependências
+- Crie um arquivo .env na raiz do projeto e preencha os parâmetros:
+    - Dados do seu bando de dados
+        - DB_HOST=""
+        - DB_USER=""
+        - DB_PASSWORD=""
+        - DB_DATABASE=""
+- Rode npm run migrations para criar as tabelas no banco de dados (MySQL).
+- Teste os endpoints através do arquivo request.rest, Postman ou equivalente.
+
+
 ### Endpoints disponiveis:
 - Buscar todos os usuários cadastrados (com seus históricos de compras)
 - Buscar todas as compras de um determinado usuário
